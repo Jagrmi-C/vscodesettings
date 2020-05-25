@@ -1,0 +1,5 @@
+###Multiterminals
+
+ext: Terminals Manager
+
+https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals

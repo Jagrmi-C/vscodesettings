@@ -1,0 +1,43 @@
+{
+  "autorun": true,
+  "terminals": [
+    {
+      "name": "kkdaemon",
+      "description": "This is a description",
+      "focus": true,
+      "execute": true,
+      "icon": "code",
+      "cwd": "/home/jarmi/JPr/docker",
+      "persistent": "unique_session_name",
+      "env": { "name": "value" },
+      "commands": [
+        "source aliases",
+        "spgapp kkdaemonv3"
+      ]
+    },
+    {
+      "name": "v2logs",
+      "cwd": "/home/jarmi/JPr/log",
+      "commands": [
+        "echo \"Start read yours logs\""
+      ]
+    },
+    {
+      "name": "workdirv3",
+      "cwd": "/home/jarmi/JPr/core-api-v3/",
+      "execute": true,
+      "command": "echo \"Start work with V3\""
+    },
+    {
+      "name": "workdirv2",
+      "cwd": "/home/jarmi/JPr/spg/",
+      "execute": true,
+      "command": "echo \"Start work with V2\""
+    },
+    {
+      "name": "Single - No execution",
+      "execute": true,
+      "command": "echo \"Hello Andrei!\""
+    }
+  ]
+}

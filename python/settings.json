@@ -1,0 +1,36 @@
+{
+    // "python.pythonPath": "/usr/bin/python3.7",
+    "python.pythonPath": "/home/jarmi/JPr/overlayDir/merged/bin/python",
+    "editor.rulers": [
+        80
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=all",
+        "--enable=F,E",
+        // "--enable=R,C",
+        "--enable=trailing-whitespace",
+        "--enable=trailing-newlines",
+        "--enable=unused-import",
+        "--enable=unnecessary-semicolon",
+        "--enable=global-variable-not-assigned",
+        "--enable=unused-variable",
+        "--enable=binary-op-exception",
+        "--enable=bad-format-string",
+        "--enable=anomalous-backslash-in-string",
+        "--enable=bad-open-mode",
+        "--enable=wrong-import-order",
+    ],
+    "ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    // "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestyleArgs": ["--ignore=C0114", "--ignore=D400"]
+}
+
+
+// "--enable=R",
+// "--disable=missing-module-docstring",
+// "--disable=C0116,C0114",
