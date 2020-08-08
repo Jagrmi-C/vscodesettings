@@ -1,0 +1,29 @@
+{
+    "go.gopath": "/home/jarmi/go",
+    "go.autocompleteUnimportedPackages": true,
+    "go.useLanguageServer": true,
+    "go.toolsGopath": "/home/jarmi/go/bin",
+    "go.buildFlags": [],
+    "go.vetFlags": [],
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatOnSave": false,
+    "go.formatTool": "goreturns",
+    "go.lintTool":"golangci-lint",
+    "go.lintFlags": [
+        "--fast"
+    ],
+    "go.testEnvFile": "/home/jarmi/go/src/github.com/Jagrmi-C/gostarted/.vscode/envvars.txt",
+    "go.languageServerExperimentalFeatures": {
+        "autoComplete": true,
+        "documentSymbols": true,
+        "findReferences": true,
+        "format": false,
+        "goToDefinition": true,
+        "goToTypeDefinition": true,
+        "hover": true,
+        "signatureHelp": true,
+        "rename": true,
+        "workspaceSymbols": true,
+        "diagnostics": true, // for diagnostics as you type
+    }
+}

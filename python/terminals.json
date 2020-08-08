@@ -16,6 +16,13 @@
       ]
     },
     {
+      "name": "venvOverlay",
+      "cwd": "/home/jarmi/JPr/overlayDir",
+      "commands": [
+        "cat /home/jarmi/JPr/core-api-v3/.vscode/aboutoverlay.txt"
+      ]
+    },
+    {
       "name": "v2logs",
       "cwd": "/home/jarmi/JPr/log",
       "commands": [
@@ -26,18 +33,33 @@
       "name": "workdirv3",
       "cwd": "/home/jarmi/JPr/core-api-v3/",
       "execute": true,
-      "command": "echo \"Start work with V3\""
+      "commands": [
+        "echo \"Start work with V3\"",
+        "cat /home/jarmi/JPr/core-api-v3/.vscode/runTest.txt"
+      ]
     },
     {
       "name": "workdirv2",
       "cwd": "/home/jarmi/JPr/spg/",
       "execute": true,
-      "command": "echo \"Start work with V2\""
+      "commands": [
+        "echo -e \"Start work with V2\""
+      ]
     },
     {
       "name": "Single - No execution",
       "execute": true,
       "command": "echo \"Hello Andrei!\""
+    },
+    {
+      "name": "Docker consol",
+      "execute":true,
+      "cwd": "/home/jarmi/JPr/docker/",
+      "commands":[
+        "echo -e \"Docker console\"",
+        "cat /home/jarmi/JPr/spg/.vscode/run_spgv2.txt"
+      ]
     }
   ]
 }
+// python -m pylint --reports=y /home/jarmi/JPr/core-api-v3/spg/commonv3/services/payout_limit/base.py
